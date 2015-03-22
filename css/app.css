@@ -1,0 +1,316 @@
+/*GENERIC HTML STYLES*/
+html
+{
+    background: #2e86ab;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+body
+{
+    background: #2e86ab;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+p
+{
+    font-family: 'Lato', sans-serif;
+
+    text-align: left;
+}
+
+a
+{
+    color: black;
+}
+/*END GENERIC HTML STYLES*/
+
+/*HEADER AND LOGO STYLES*/
+.header
+{
+    background-color: #db5d1e;
+    -webkit-box-shadow: 0 6px 5px 0 rgba(0,0,0,.75);
+       -moz-box-shadow: 0 6px 5px 0 rgba(0,0,0,.75);
+            box-shadow: 0 6px 5px 0 rgba(0,0,0,.75);
+}
+
+.logo
+{
+    position: relative;
+}
+/*END HEADER AND LOGO STYLES*/
+
+/*PANEL STYLES*/
+.panel
+{
+    border-style: none;
+    -webkit-box-shadow: 4px 6px 0 0 rgba(0,0,0,.75);
+       -moz-box-shadow: 4px 6px 0 0 rgba(0,0,0,.75);
+            box-shadow: 4px 6px 5px 0 rgba(0,0,0,.75);
+}
+
+.panel h3
+{
+    font-family: 'Raleway', sans-serif;
+
+    color: #fff;
+}
+
+.panel h4
+{
+    font-family: 'Raleway', sans-serif;
+}
+/*END PANEL STYLES*/
+
+/*SLIDESHOW STYLES*/
+.autoplay
+{
+    -webkit-box-shadow: 4px 6px 0 0 rgba(0,0,0,.75);
+       -moz-box-shadow: 4px 6px 0 0 rgba(0,0,0,.75);
+            box-shadow: 4px 6px 5px 0 rgba(0,0,0,.75);
+}
+
+.content img
+{
+    height: 340px;
+}
+/*END SLIDESHOW STYLES*/
+
+/*BLACK BOX STYLES*/
+#black
+{
+    background: #2c302e;
+}
+
+#black li
+{
+    color: #fff;
+}
+
+a:hover #black
+{
+    background: #6d696a;
+}
+
+#black h1
+{
+    padding: 20px;
+
+    text-align: center;
+
+    color: #f1f2eb;
+}
+
+#black h4
+{
+    font-weight: bold;
+
+    text-align: left;
+
+    color: #f1f2eb;
+    border-bottom: dotted #f1f2eb 2px;
+}
+/*END BLACK BOX STYLES*/
+
+/*GREY BOX STYLES*/
+#grey
+{
+    background: #F7F4EA;
+}
+
+#grey p
+{
+    color: #000;
+}
+
+#grey h4
+{
+    font-weight: bold;
+
+    text-align: left;
+
+    color: #000;
+    border-bottom: dotted #000 2px;
+}
+
+#grey h5
+{
+    font-weight: bold;
+
+    padding-top: 1em;
+
+    text-align: left;
+
+    color: #f1f2eb;
+    border-bottom: dotted black 2px;
+}
+/*END GREY BOX STYLES*/
+
+/*WHITE TEXT STYLES*/
+#white
+{
+    background: #6d696a;
+}
+
+#white :hover h4
+{
+    color: #fff;
+    border-bottom: dotted #fff 2px;
+}
+
+#white h4
+{
+    font-weight: bold;
+
+    text-align: left;
+
+    color: #000;
+    border-bottom: dotted #000 2px;
+}
+/*END WHITE TEXT STYLES*/
+
+/*MAP STYLES*/
+.google-maps
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 0;
+    padding-bottom: 75%;
+}
+
+.google-maps iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100% !important;
+    height: 100% !important;
+}
+/*END MAP STYLES*/
+
+/*ACCORDION STYLES FOR MENU*/
+.accordion .accordion-navigation.active > a,
+.accordion dd.active > a
+{
+    color: #fff;
+    background: #2c302e;
+}
+
+.accordion .accordion-navigation > a,
+.accordion dd > a
+{
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+
+    display: block;
+
+    padding: 1rem;
+
+    color: #fff;
+    background: #2c302e;
+}
+
+.accordion .accordion-navigation > a:hover,
+.accordion dd > a:hover
+{
+    color: #fff;
+    background: #6d696a;
+}
+
+.accordion .accordion-navigation > .content.active,
+.accordion dd > .content.active
+{
+    display: block;
+
+    background: none repeat scroll 0 0 #2c302e;
+}
+/*END ACCORDION STYLES FOR MENU*/
+
+/*MENU STYLES*/
+.menu
+{
+    font: 150%/100% Arial, Helvetica, sans-serif;
+
+    width: auto;
+    margin: 0 0 2em;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu dt:nth-of-type(even),
+.menu dd:nth-of-type(even)
+{
+    background: #fff;
+}
+
+.menu dt:nth-of-type(odd),
+.menu dd:nth-of-type(odd)
+{
+    background: #eee;
+}
+
+.menu strong
+{
+    font-size: 20px;
+    font-weight: normal;
+
+    position: absolute;
+    bottom: -.3em;
+    left: 0;
+
+    padding: 0 10px 2px 0;
+
+    color: #000;
+}
+
+.menu em
+{
+    font: 110%/100% Georgia, 'Times New Roman', Times, serif;
+
+    position: absolute;
+    right: 0;
+    bottom: -.2em;
+
+    padding: 0 0 2px 5px;
+
+    color: #000;
+}
+
+.menu sup
+{
+    font-size: 60%;
+
+    margin-left: 3px;
+}
+
+.menu dt
+{
+    position: relative;
+
+    clear: both;
+
+    margin: 0;
+    padding: 0 0 1.8em 0;
+}
+
+.menu dd
+{
+    font-size: 60%;
+
+    padding: 10px 0 0 0;
+}
+
+.menu sup
+{
+    font-size: 65%;
+}
+/*END MENU STYLES*/
