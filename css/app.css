@@ -1,4 +1,7 @@
 /*GENERIC HTML STYLES*/
+.row {
+	padding-top:.5em;
+}
 html
 {
     background: #2e86ab;
